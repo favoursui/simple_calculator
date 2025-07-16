@@ -54,16 +54,23 @@ print ("enter a number to exponent")
  
 # accepts input from the user and stores it
 first_number = int(input("enter first number: "))
-second_number = int(input("enter second number: "))
+exponent = int(input("enter exponent: "))
  
 # make an exponential
 expo = float(first_number) ** float(second_number)
-print ("{} ** {} = {:,.2f}" .format(first_number, second_number, expo))
- 
+print ("{} ** {} = {:,.2f}" .format(first_number, exponent, expo))
 
 
   
+print ("enter two numbers to floor_divide")
  
+# accepts input from the user and stores it
+first_number = int(input("enter first number: "))
+second_number = int(input("enter second number: "))
+ 
+# make a floor_division with the inputs collected and convert to float
+floor_div = float(first_number) // float(second_number)
+print ("{} // {} = {:,.2f}" .format(first_number, second_number, floor_div)) 
 
 
 
